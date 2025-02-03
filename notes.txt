@@ -1,0 +1,11 @@
+# anaconda
+conda deactivate
+conda remove -n ENV_NAME --all
+conda env create -f environment.yml
+conda activate ENV_NAME
+conda env update --file environment.yml --prune
+
+# pytorch
+- cuda
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
