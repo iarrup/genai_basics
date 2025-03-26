@@ -17,6 +17,7 @@ dependencies:
   - scikit-learn
   - jupyter-dash
   - optuna
+  - kaggle
  
   - pytorch::pytorch
   - pytorch::torchvision
@@ -25,6 +26,18 @@ dependencies:
   
   - tensorflow-gpu
   - keras
+
+  - langchain
+  - langchain-core
+  - langchain-openai
+  - openai
+  - langchain-anthropic
+  - langchain-google-genai
+  - google-generativeai
+  - langchain-huggingface
+  - huggingface_hub
+  - transformers
+  - huggingface_hub
   
   - pip
   - pip:
@@ -33,3 +46,9 @@ dependencies:
     - protobuf==5.28.1
     - grpcio==1.68.1
     - grpcio-tools==1.68.1
+    - tf-keras
+    - pydantic
+    - langchain-ollama
+    - grandalf
+    - streamlit
+    - kagglehub
